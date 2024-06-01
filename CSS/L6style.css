@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body{
+	background-color: #ADD8E6;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: 200px 170px;
+}
+
+a{
+	color: #DC143C;
+}
+
+header,nav,footer{
+	text-align: center;
+}
+
+a:hover{
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+h1{
+	width: 400px;
+	margin: 40px auto;
+	padding: 30px;
+	border: 5px solid #1E90FF;
+	background-color: #87CEFA;
+	color: #F5FFFA;
+	font-size: 200%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 10px 10px 10px 10px;
+    text-shadow: 2px 2px 10px #307657;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    font-family: 'Red Hat Mono', monospace;
+}
+
+h2{
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 1px dotted #1E90FF;
+	border-left: 10px solid #4169E1;
+	color: #000080;
+}
+
+#contents{
+	width: 960px;
+	margin: 40px auto;
+	
+	padding: 40px 80px;
+	border: 1px solid #1E90FF;
+	background-color: #F5FFFA;
+}
+
+.more{
+	text-align: right;
+}
+
+.more::after{
+	content: url(../images/arrow.png);
+	margin-left: 3px;
+	vertical-align: middle;
+}
+
+.h{
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 1px solid #1E90FF;
+	border-left: 10px solid #4169E1;
+	color: #000080;
+	border-radius: 5px 0 0 5px;
+}
+
+.h-sub{	
+	padding: 5px;
+	background-color: #E0FFFF;
+	color: #191970;
+	border-radius: 10px;
+	background-origin: 0 0 5px 2px #191970 inset;
+}
+
+#contents > section+section{
+	margin-top: 80px;
+}
+
+a[href^="mailto:"]::after{
+	content: url(../images/mail.png);
+	max-resolution: 10px;
+	vertical-align: middle;
+}
+
+a[target="_blank"]::after{
+	content: url(../images/web.png);
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.menu li{
+	list-style-type: none;	
+	display: inline-block;
+	width: 180px;
+	margin: 0 10px;
+}
+
+.menu a{
+	display: block;
+	padding: 10px;
+	background: #778899;
+	border-radius: 8px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background: #90ddbb;
+}
+
+.imgL{
+	float: left;
+    margin-right: 20px;
+}
+
+.imgR{
+	float: right;
+	margin-left: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}

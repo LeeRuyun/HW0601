@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+body {
+background: #fbf9cc url(img/bg.png) repeat-x;
+}
+
+#contents {
+width: 798px;
+margin: 40px auto;
+padding: 40px 80px;
+border: 1px solid #f6bb9a;
+background-color: #fff;
+font-family: '新細明體';
+}
+
+.entryTable{
+	width: 100%;
+	margin-bottom: 30px;
+	border: 2px solid #f6bb9e;
+	border-collapse: collapse;
+}
+
+.entryTable th,
+.entryTable td{
+	padding: 10px 20px;
+	border: 1px solid #f6bb9e;
+}
+
+.entryTable th{
+	width: 5em;
+	background-color: #ffeeee;
+	text-align: left;
+}
+
+.entryTable caption{
+	margin-bottom: 10px;
+}
+
+.entryTable input[type="text"],
+.entryTable textarea{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+.entryTable input[type="text"]:focus,
+.entryTable textarea:focus{
+	
+	outline: none;
+	border-left: 3px solid #ffa700;
+}
+
+label,input,textarea,select{
+	cursor: pointer;
+}
+
+.entryBtns{
+	text-align: center;
+}
+
+.entryBtns input{
+	width: 200px;
+	margin: 0 10px;
+	padding: 10px;
+	background: #fff;
+	border: 2px solid #f6bb9e;
+	border-radius: 10px;
+	font-size: 1em;
+}
+
+.entryBtns input[type="submit"]{
+	background: #fadccc;
+}
+
+.entryBtns input:hover{
+	opacity: 0.7;
+}
+
+h5{
+	text-align: center;
+	font-size: 14pt;
+}
+
+
+.stripe{
+	width: 100%;
+	border-collapse: collapse;
+	border: #A9A9A9 1.5px solid;
+}
+
+.stripe td{
+	padding: 5px;
+	border: #A9A9A9 1px solid;
+}
+
+.stripe tr:nth-child(even){
+	background-color: #DCDCDC;
+}
+
+.stripe td,
+.stripe th{
+	font-size: 12pt;
+	text-align: center;
+	font-family: '新細明體';
+}
